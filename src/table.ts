@@ -1,5 +1,5 @@
 import TableUI from "./components/tableUI.ts";
-import Toolbars from "./components/toolbar/toolbars.ts";
+import Toolbars from "./components/toolbar/toolBars.ts";
 import ContextMenu from "./components/contextMenu/contextMenu.ts";
 import CellsSelection from "./components/cellsSelection.ts";
 import ColumnResizer from "./components/resizer/columnResizer.ts";
