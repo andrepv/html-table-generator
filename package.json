@@ -24,7 +24,8 @@
   },
   "scripts": {
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
