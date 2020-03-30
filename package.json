@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
+  "engines": {
+    "node": "10.15.0"
+  },
   "dependencies": {
     "alertifyjs": "^1.13.1",
     "normalize.css": "^8.0.1",
