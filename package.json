@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "alertifyjs": "^1.13.1",
+    "express": "^4.17.1",
     "normalize.css": "^8.0.1",
     "pretty": "^2.0.0",
     "resize-observer-polyfill": "^1.5.1",
@@ -27,7 +28,7 @@
   },
   "scripts": {
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open",
+    "start": "node server.js",
     "heroku-postbuild": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
