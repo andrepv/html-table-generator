@@ -149,7 +149,7 @@ export default class Table implements ITable {
     if (!isInContainer) {
       this.deactivateTable();
     }
-  }
+  } 
 
   private selectCell(cell: HTMLTableCellElement): void {
     this.cellsSelection.handleCellMouseDown(cell);
